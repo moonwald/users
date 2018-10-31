@@ -1,0 +1,23 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ehcache.xsd" 
+	updateCheck="true"
+	monitoring="autodetect" 
+	dynamicConfig="true">
+
+	<diskStore path="java.io.tmpdir" />
+	
+	<cache name="getAllUsers"
+		maxEntriesLocalHeap="100"
+		maxEntriesLocalDisk="1000" 
+		eternal="false" 
+		timeToIdleSeconds="300" 
+		timeToLiveSeconds="600"
+		memoryStoreEvictionPolicy="LFU" 
+		transactionalMode="off">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+<!--	Here we are setting up a cache with name ‘getAllUsers’. Maximum 100 getAllUsers objects will be kept in in-memory [on-heap] store,
+	while maximum 1000 getAllUsers will be maintained in the DiskStore, on the path specified ‘C:/temp/ehcache’ which refers
+	to default temp file path.-->
+</ehcache>

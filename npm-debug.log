@@ -1,0 +1,254 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '—save',
+1 verbose cli   '@angular2-material/core',
+1 verbose cli   '@angular2-material/button',
+1 verbose cli   '@angular2-material/card',
+1 verbose cli   '@angular2-material/icon' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 verbose config Skipping project config: C:\Users\IBM_ADMIN/.npmrc. (matches userconfig)
+5 error arg Argument starts with non-ascii dash, this is probably invalid: [ '—save',
+5 error arg   '@angular2-material/core',
+5 error arg   '@angular2-material/button',
+5 error arg   '@angular2-material/card',
+5 error arg   '@angular2-material/icon' ]
+6 silly loadCurrentTree Starting
+7 silly install loadCurrentTree
+8 silly install readLocalPackageData
+9 silly fetchPackageMetaData —save
+10 silly fetchPackageMetaData @angular2-material/core
+11 silly fetchPackageMetaData @angular2-material/button
+12 silly fetchPackageMetaData @angular2-material/card
+13 silly fetchPackageMetaData @angular2-material/icon
+14 silly fetchNamedPackageData @angular2-material/core
+15 silly mapToRegistry name @angular2-material/core
+16 silly mapToRegistry scope (from package name) @angular2-material
+17 verbose mapToRegistry no registry URL found in name for scope @angular2-material
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: '@angular2-material/core',
+20 silly mapToRegistry   scope: '@angular2-material',
+20 silly mapToRegistry   escapedName: '@angular2-material%2fcore',
+20 silly mapToRegistry   name: '@angular2-material/core',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag' }
+21 silly mapToRegistry uri https://registry.npmjs.org/@angular2-material%2fcore
+22 silly fetchNamedPackageData @angular2-material/button
+23 silly mapToRegistry name @angular2-material/button
+24 silly mapToRegistry scope (from package name) @angular2-material
+25 verbose mapToRegistry no registry URL found in name for scope @angular2-material
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry data Result {
+28 silly mapToRegistry   raw: '@angular2-material/button',
+28 silly mapToRegistry   scope: '@angular2-material',
+28 silly mapToRegistry   escapedName: '@angular2-material%2fbutton',
+28 silly mapToRegistry   name: '@angular2-material/button',
+28 silly mapToRegistry   rawSpec: '',
+28 silly mapToRegistry   spec: 'latest',
+28 silly mapToRegistry   type: 'tag' }
+29 silly mapToRegistry uri https://registry.npmjs.org/@angular2-material%2fbutton
+30 silly fetchNamedPackageData @angular2-material/card
+31 silly mapToRegistry name @angular2-material/card
+32 silly mapToRegistry scope (from package name) @angular2-material
+33 verbose mapToRegistry no registry URL found in name for scope @angular2-material
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry data Result {
+36 silly mapToRegistry   raw: '@angular2-material/card',
+36 silly mapToRegistry   scope: '@angular2-material',
+36 silly mapToRegistry   escapedName: '@angular2-material%2fcard',
+36 silly mapToRegistry   name: '@angular2-material/card',
+36 silly mapToRegistry   rawSpec: '',
+36 silly mapToRegistry   spec: 'latest',
+36 silly mapToRegistry   type: 'tag' }
+37 silly mapToRegistry uri https://registry.npmjs.org/@angular2-material%2fcard
+38 silly fetchNamedPackageData @angular2-material/icon
+39 silly mapToRegistry name @angular2-material/icon
+40 silly mapToRegistry scope (from package name) @angular2-material
+41 verbose mapToRegistry no registry URL found in name for scope @angular2-material
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry data Result {
+44 silly mapToRegistry   raw: '@angular2-material/icon',
+44 silly mapToRegistry   scope: '@angular2-material',
+44 silly mapToRegistry   escapedName: '@angular2-material%2ficon',
+44 silly mapToRegistry   name: '@angular2-material/icon',
+44 silly mapToRegistry   rawSpec: '',
+44 silly mapToRegistry   spec: 'latest',
+44 silly mapToRegistry   type: 'tag' }
+45 silly mapToRegistry uri https://registry.npmjs.org/@angular2-material%2ficon
+46 verbose request uri https://registry.npmjs.org/@angular2-material%2fcore
+47 verbose request no auth needed
+48 info attempt registry request try #1 at 1:38:17 PM
+49 verbose request id 5140d140b53bac92
+50 http request GET https://registry.npmjs.org/@angular2-material%2fcore
+51 verbose request uri https://registry.npmjs.org/@angular2-material%2fbutton
+52 verbose request no auth needed
+53 info attempt registry request try #1 at 1:38:17 PM
+54 http request GET https://registry.npmjs.org/@angular2-material%2fbutton
+55 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+56 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+57 verbose request uri https://registry.npmjs.org/@angular2-material%2fcard
+58 verbose request no auth needed
+59 info attempt registry request try #1 at 1:38:17 PM
+60 http request GET https://registry.npmjs.org/@angular2-material%2fcard
+61 verbose request uri https://registry.npmjs.org/@angular2-material%2ficon
+62 verbose request no auth needed
+63 info attempt registry request try #1 at 1:38:17 PM
+64 http request GET https://registry.npmjs.org/@angular2-material%2ficon
+65 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+66 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+67 silly fetchOtherPackageData —save
+68 silly cache add args [ '—save', null ]
+69 verbose cache add spec —save
+70 silly cache add parsed spec Result {
+70 silly cache add   raw: '—save',
+70 silly cache add   scope: null,
+70 silly cache add   escapedName: null,
+70 silly cache add   name: null,
+70 silly cache add   rawSpec: '—save',
+70 silly cache add   spec: 'C:\\Users\\IBM_ADMIN\\workspaceBIM\\users\\—save',
+70 silly cache add   type: 'local' }
+71 error addLocal Could not install C:\Users\IBM_ADMIN\workspaceBIM\users\—save
+72 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open 'C:\Users\IBM_ADMIN\workspaceBIM\users\—save'
+72 silly fetchPackageMetaData     at Error (native)
+72 silly fetchPackageMetaData  error for —save { Error: ENOENT: no such file or directory, open 'C:\Users\IBM_ADMIN\workspaceBIM\users\—save'
+72 silly fetchPackageMetaData     at Error (native)
+72 silly fetchPackageMetaData   errno: -4058,
+72 silly fetchPackageMetaData   status: 'ENOENT',
+72 silly fetchPackageMetaData   syscall: 'open',
+72 silly fetchPackageMetaData   path: 'C:\\Users\\IBM_ADMIN\\workspaceBIM\\users\\—save' }
+73 info attempt registry request try #2 at 1:38:27 PM
+74 http request GET https://registry.npmjs.org/@angular2-material%2fcore
+75 info attempt registry request try #2 at 1:38:27 PM
+76 http request GET https://registry.npmjs.org/@angular2-material%2fbutton
+77 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+78 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+79 info attempt registry request try #2 at 1:38:27 PM
+80 http request GET https://registry.npmjs.org/@angular2-material%2fcard
+81 info attempt registry request try #2 at 1:38:27 PM
+82 http request GET https://registry.npmjs.org/@angular2-material%2ficon
+83 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+84 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+85 info attempt registry request try #3 at 1:39:27 PM
+86 http request GET https://registry.npmjs.org/@angular2-material%2fcore
+87 info attempt registry request try #3 at 1:39:27 PM
+88 http request GET https://registry.npmjs.org/@angular2-material%2fbutton
+89 info attempt registry request try #3 at 1:39:27 PM
+90 http request GET https://registry.npmjs.org/@angular2-material%2fcard
+91 info attempt registry request try #3 at 1:39:27 PM
+92 http request GET https://registry.npmjs.org/@angular2-material%2ficon
+93 silly fetchPackageMetaData TypeError: The header content contains invalid characters
+93 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:360:11)
+93 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+93 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+93 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+93 silly fetchPackageMetaData     at Request.start (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:740:32)
+93 silly fetchPackageMetaData     at Request.end (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1398:10)
+93 silly fetchPackageMetaData     at end (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:567:14)
+93 silly fetchPackageMetaData     at Immediate.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:581:7)
+93 silly fetchPackageMetaData     at runCallback (timers.js:672:20)
+93 silly fetchPackageMetaData     at tryOnImmediate (timers.js:645:5)
+93 silly fetchPackageMetaData  error for @angular2-material/core TypeError: The header content contains invalid characters
+93 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:360:11)
+93 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+93 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+93 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+93 silly fetchPackageMetaData     at Request.start (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:740:32)
+93 silly fetchPackageMetaData     at Request.end (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1398:10)
+93 silly fetchPackageMetaData     at end (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:567:14)
+93 silly fetchPackageMetaData     at Immediate.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:581:7)
+93 silly fetchPackageMetaData     at runCallback (timers.js:672:20)
+93 silly fetchPackageMetaData     at tryOnImmediate (timers.js:645:5)
+94 silly fetchPackageMetaData TypeError: The header content contains invalid characters
+94 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:360:11)
+94 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+94 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+94 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+94 silly fetchPackageMetaData     at Request.start (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:740:32)
+94 silly fetchPackageMetaData     at Request.end (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1398:10)
+94 silly fetchPackageMetaData     at end (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:567:14)
+94 silly fetchPackageMetaData     at Immediate.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:581:7)
+94 silly fetchPackageMetaData     at runCallback (timers.js:672:20)
+94 silly fetchPackageMetaData     at tryOnImmediate (timers.js:645:5)
+94 silly fetchPackageMetaData  error for @angular2-material/button TypeError: The header content contains invalid characters
+94 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:360:11)
+94 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+94 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+94 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+94 silly fetchPackageMetaData     at Request.start (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:740:32)
+94 silly fetchPackageMetaData     at Request.end (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1398:10)
+94 silly fetchPackageMetaData     at end (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:567:14)
+94 silly fetchPackageMetaData     at Immediate.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:581:7)
+94 silly fetchPackageMetaData     at runCallback (timers.js:672:20)
+94 silly fetchPackageMetaData     at tryOnImmediate (timers.js:645:5)
+95 silly fetchPackageMetaData TypeError: The header content contains invalid characters
+95 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:360:11)
+95 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+95 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+95 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+95 silly fetchPackageMetaData     at Request.start (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:740:32)
+95 silly fetchPackageMetaData     at Request.end (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1398:10)
+95 silly fetchPackageMetaData     at end (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:567:14)
+95 silly fetchPackageMetaData     at Immediate.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:581:7)
+95 silly fetchPackageMetaData     at runCallback (timers.js:672:20)
+95 silly fetchPackageMetaData     at tryOnImmediate (timers.js:645:5)
+95 silly fetchPackageMetaData  error for @angular2-material/card TypeError: The header content contains invalid characters
+95 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:360:11)
+95 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+95 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+95 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+95 silly fetchPackageMetaData     at Request.start (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:740:32)
+95 silly fetchPackageMetaData     at Request.end (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1398:10)
+95 silly fetchPackageMetaData     at end (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:567:14)
+95 silly fetchPackageMetaData     at Immediate.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:581:7)
+95 silly fetchPackageMetaData     at runCallback (timers.js:672:20)
+95 silly fetchPackageMetaData     at tryOnImmediate (timers.js:645:5)
+96 silly fetchPackageMetaData TypeError: The header content contains invalid characters
+96 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:360:11)
+96 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+96 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+96 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+96 silly fetchPackageMetaData     at Request.start (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:740:32)
+96 silly fetchPackageMetaData     at Request.end (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1398:10)
+96 silly fetchPackageMetaData     at end (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:567:14)
+96 silly fetchPackageMetaData     at Immediate.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:581:7)
+96 silly fetchPackageMetaData     at runCallback (timers.js:672:20)
+96 silly fetchPackageMetaData     at tryOnImmediate (timers.js:645:5)
+96 silly fetchPackageMetaData  error for @angular2-material/icon TypeError: The header content contains invalid characters
+96 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:360:11)
+96 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+96 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+96 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+96 silly fetchPackageMetaData     at Request.start (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:740:32)
+96 silly fetchPackageMetaData     at Request.end (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1398:10)
+96 silly fetchPackageMetaData     at end (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:567:14)
+96 silly fetchPackageMetaData     at Immediate.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:581:7)
+96 silly fetchPackageMetaData     at runCallback (timers.js:672:20)
+96 silly fetchPackageMetaData     at tryOnImmediate (timers.js:645:5)
+97 silly rollbackFailedOptional Starting
+98 silly rollbackFailedOptional Finishing
+99 silly runTopLevelLifecycles Finishing
+100 silly install printInstalled
+101 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\IBM_ADMIN\workspaceBIM\users\—save'
+101 verbose stack     at Error (native)
+102 verbose cwd C:\Users\IBM_ADMIN\workspaceBIM\users
+103 error Windows_NT 6.1.7601
+104 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "—save" "@angular2-material/core" "@angular2-material/button" "@angular2-material/card" "@angular2-material/icon"
+105 error node v6.10.3
+106 error npm  v3.10.10
+107 error path C:\Users\IBM_ADMIN\workspaceBIM\users\—save
+108 error status ENOENT
+109 error errno -4058
+110 error syscall open
+111 error enoent ENOENT: no such file or directory, open 'C:\Users\IBM_ADMIN\workspaceBIM\users\—save'
+112 error enoent ENOENT: no such file or directory, open 'C:\Users\IBM_ADMIN\workspaceBIM\users\—save'
+112 error enoent This is most likely not a problem with npm itself
+112 error enoent and is related to npm not being able to find a file.
+113 verbose exit [ -4058, true ]
